@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "C-70-Automatically-Populating-Text-Input",
-    "slug": "C-70-Automatically-Populating-Text-Input",
+    "name": "C-71-Firestore",
+    "slug": "C-71-Firestore",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
