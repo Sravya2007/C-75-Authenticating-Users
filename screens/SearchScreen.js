@@ -68,13 +68,10 @@ export default class SearchScreen extends React.Component {
 
     render() {
         return (
-            <View style = {{
-                flex: 1,
-                marginTop: 20
-            }}>
+            <View style = {styles.container}>
                 <View style = {styles.searchBar}>
                     <TextInput style = {styles.bar}
-                    placeHolder = "Enter book ID or student ID"
+                    placeholder = "Enter book ID or student ID"
                     onChangeText = {text =>{
                         this.setState({
                             search: text
@@ -127,7 +124,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'grey'
     },
     bar: {
-        borderEndWidth: 2,
+        borderWidth: 2,
         height: 30,
         width: 300,
         paddingLeft: 10
@@ -139,5 +136,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: 'green'
+    },
+    container: {
+        flex: 1,
+        marginTop: 20
     }
 })
