@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, TouchableOpacity, TextInput, Image, StyleSheet, KeyboardAvoidingView, Alert } from 'react-native';
 import * as Permissions from 'expo-permissions';
 import { BarCodeScanner } from 'expo-barcode-scanner';
-import * as firebase from 'firebase'
+import * as firebase from 'firebase';
 import db from '../config.js'
 
 export default class TransactionScreen extends React.Component {
